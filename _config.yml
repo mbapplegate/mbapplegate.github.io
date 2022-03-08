@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Matthew Applegate"
-  avatar           : "Matt_Headshot"
+  avatar           : "Matt_Headshot.jpg"
   bio              : "Currently working on AI for medical image processing as an Experiential AI Postdoctoral Fellow at Northeastern University"
   location         : "Boston, MA"
   employer         :
