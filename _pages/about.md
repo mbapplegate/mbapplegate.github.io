@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-A biomedical engineer by training, my experience spans hardware, software, firmware, system integration, data collection/analysis, and machine learning methods. I specialize in opto-electric systems for medical applications.
+I am a biomedical engineer specializing in opto-electric systems for medical applications. My experience spans hardware, software, firmware, system integration, data collection/analysis, and machine learning methods.
