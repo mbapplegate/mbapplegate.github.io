@@ -1,9 +1,0 @@
----
-title: "High-speed Frequency Domain DIffuse Optical Spectroscopy for Rapid Assessment of Breast Neoplasms"
-collection: talks
-type: "Talk"
-permalink: /talks/2020-04-trackDOSI2
-venue: "OSA Biophotonics Congress: Biomedical Optics"
-date: 2020-04
-location: "Virtual"
----
