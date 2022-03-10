@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Click [here](files/LaTex_CV_10Jan2022) for a PDF version of my CV
+Click [here](../files/LaTex_CV_10Jan2022) for a PDF version of my CV
 
 Education
 ======
