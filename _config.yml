@@ -187,7 +187,7 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-   research:
+  research:
     output: true
     permalink: /:collection/:path/
 
@@ -247,14 +247,14 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-    # _research
-    - scope:
+  # _research
+  - scope:
       path: ""
       type: research
     values:
       layout: single
       author_profile: true
-      sharpe: true
+      share: true
 
 # Sass/SCSS
 sass:
