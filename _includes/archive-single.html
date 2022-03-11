@@ -51,7 +51,7 @@
     
         {% if post.publink %}
         <p class="page__date">Publication <a href={{post.publink}}>here</a></p>
-
+        {% endif %}
     {% if post.excerpt and site.read_more != 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
