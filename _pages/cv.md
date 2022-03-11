@@ -27,6 +27,9 @@ Skills
 * Optical system design
 * Alignment
 * Microscopy
+* AI-based Image Processing
+* Machine Learning
+* PCB design and assembly
 * Programming
   * Matlab
   * Python
