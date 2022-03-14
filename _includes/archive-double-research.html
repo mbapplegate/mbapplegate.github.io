@@ -57,15 +57,15 @@
       {% endif %}
     {% endcomment %}
     
-    <div class="researchRow">
-      <div class="researchColumn left">
+    <div class="rowResearch">
+      <div class="columnResearch left">
         {% if post.image %}
           <img src="{{ post.image }}">
         {% else %}
           <img src="/images/defaultResearchImage.png">
         {% endif %}
       </div>
-      <div class="researchColumn right">
+      <div class="columnResearch right">
         {% if post.excerpt and site.read_more != 'enabled' %}
           <p>{{ post.excerpt | markdownify }}</p>
         {% elsif post.excerpt and site.read_more == 'enabled' %}
