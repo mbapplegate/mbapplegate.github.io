@@ -50,7 +50,7 @@
           {% endif %}
 
 	  {% if post.image %}
-	    <p><img style="display:black;max-width:60%;height:auto" src=post.image></p>
+	    <p><img style="display:black;max-width:60%;height:auto" src="{{post.image}}"></p>
 	  {% endif %}
 	    
 	  {% elsif post.date %}
@@ -59,7 +59,7 @@
         {% endif %}
       {% comment %}
         {% if post.publink %}
-        <p class="page__date">Publication <a href={{post.publink}}>here</a></p>
+        <p class="page__date">Publication <a href={{ post.publink }}>here</a></p>
         {% endif %}
       {% endcomment %}
     {% if post.excerpt and site.read_more != 'enabled' %}
