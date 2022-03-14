@@ -109,11 +109,12 @@
 
 .rowResearch {
    display: flex;
-   align-item: center;
+   align-items: center;
 }
 /* Create two equal columns that floats next to each other */
 .columnResearch {
-  padding: 10px;
+   display: flex;
+   padding: 10px;
 }
 .left {
   flex: 25%;
