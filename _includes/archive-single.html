@@ -44,7 +44,7 @@
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'research' %}
           {% if post.publink %}
-            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Worked on in: </strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%Y" }}</time> &ndash; <a href={{post.publink}}>(Publication link)</a></p>
+            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Worked on in: </strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%Y" }}</time> &ndash; (<a href={{post.publink}}>Publication link</a>)</p>
           {% else %}
             <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Worked on in: </strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%Y" }}</time></p>
           {% endif %}
