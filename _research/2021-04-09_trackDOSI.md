@@ -1,7 +1,8 @@
 ---
 title: Real-time diffuse optical spectroscopy
-excerpt: "Diffuse optical spectroscopy has a long history of use for the monitoring of breast cancer, but lengthy acquisition and processing times have made it difficult to use in the clinic. While in the Roblyer lab, I helped develop an ultrafast spectroscopy system with onboard data processing and integrated it with a novel probe tracking technique to provide real-time information of tissue hemodynamics.<br/><img src='/images/trackDOSI_still.png' width='400'><br/>"
+excerpt: "Diffuse optical spectroscopy has a long history of use for the monitoring of breast cancer, but lengthy acquisition and processing times have made it difficult to use in the clinic. While in the Roblyer lab, I helped develop an ultrafast spectroscopy system with onboard data processing and integrated it with a novel probe tracking technique to provide real-time information of tissue hemodynamics."
 date: 2021-04-09
+image: trackDOSI_still.png 
 publink: https://ieeexplore.ieee.org/abstract/document/9399842
 collection: research
 ---
