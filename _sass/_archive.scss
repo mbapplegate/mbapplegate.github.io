@@ -116,6 +116,9 @@
    display: flex;
    padding: 10px;
 }
+.columnResearch img {
+   border-radius: 25%;  
+}
 .left {
   flex: 25%;
   justify-content: center;
@@ -128,7 +131,7 @@
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
-  .columnResearch.left, columnResearch.right {
+  .columnResearch.left, .columnResearch.right {
     flex: 100%;
   }
 }
