@@ -126,12 +126,13 @@
    justify-content: left;
 }
 .columnResearch.left img {
-   border-radius: 25%;  
+   border-radius: 15%;  
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media (max-width: 800px) {
   .columnResearch.left, .columnResearch.right {
+    flex: 100%;
     flex-direction: column;
   }
 }
