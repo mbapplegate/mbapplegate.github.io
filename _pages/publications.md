@@ -19,7 +19,7 @@ author_profile: true
 
 ## Co-author
 {% for post in site.publications reversed %}
-  {% if not post.firstauthor %}
+  {% unless post.firstauthor %}
     {% include archive-single.html %}
-  {% endif %}
+  {% endunless %}
 {% endfor %}
