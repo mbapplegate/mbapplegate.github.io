@@ -10,8 +10,16 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
-
+## Primary author
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% if post.firstauthor %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
 
+## Co-author
+{% for post in site.publications reversed %}
+  {% if not post.firstauthor %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
